@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>number game</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var value,input;
+		value=Math.floor(Math.random()*10+1);
+		input=window.prompt("Please enter guess a interger.(1 to 10)");
+
+		input=parseInt(input);
+		while(true){
+
+			if(value==input){
+				input=window.prompt("congratulation!!");
+				break
+			}else{
+				input=window.prompt("Please guess again.")
+			}
+
+		}
+
+	</script>
+		
+
+</body>
+</html>
